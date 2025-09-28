@@ -17,7 +17,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="flex min-h-screen w-full bg-background dark">
+        <div className="flex min-h-screen w-full bg-background">
           <Sidebar />
           <main className="flex-1 bg-muted/30">
             <Routes>
